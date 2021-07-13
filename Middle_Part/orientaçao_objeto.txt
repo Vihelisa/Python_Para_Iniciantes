@@ -1,0 +1,19 @@
+Paradigmas da programação:
+- 3 principais:
+    - Programação estruturada;
+    - Programação orientada a objeto;
+    - Programação funcional.
+- O paradigma que vc for usar no seu projeto, depende da linguagem escolhida.
+
+O que é orinentação objeto?
+    - é uma maneira de programar que pretender mapear objetos do mundo real de maneira computacional.
+
+Principais objetos da orientação objeto:
+    - A classe;
+    - Atributos/características;
+    - Métodos: Comportamento do objeto, como ele se comporta (função que está dentro da classe);
+    - Construtos: É um método especial, utilizado para criarmos objtos dentro da classe;
+    - O próprio objeto, os objetos criados nas classes são chamados de objetos ou instancias.
+
+- Quando definimos uma classe, nós estamos definindo nossos próprios tipos de dados.
+

@@ -14,9 +14,13 @@ class Pessoa:
         print("Pessoa está falando")
 
 '''
+from datetime import datetime
 
 class Pessoa:
+    ano_atual = int(datetime.strftime(datetime.now(), '%Y')) #Variável da classe
+
     def __init__(self, nome, idade,falando=False, comendo=False):
+        '''Variaveis da instancia'''
         self.nome = nome #mesma coisa de dizer que p1.nome = "Vitoria"
         self.idade = idade
         self.falando = falando
@@ -67,3 +71,6 @@ class Pessoa:
             return
         print(f"{self.nome} parou de comer\n")
         self.comendo = False
+
+    def get_ano_nascimento(self):
+        return self.ano_atual - self.idade
